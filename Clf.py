@@ -15,7 +15,7 @@ classes = ['A','B','C','D','E','F','G','H','I','J','K','L','M','N','O','P','Q','
 
 nclasses = len(classes)
 
-X_train, X_test, y_train, y_test = train_test_split(X, y, random_state=9, train_size=3500, test_size=500)
+X_train, X_test, y_train, y_test = train_test_split(x, y, random_state=9, train_size=3500, test_size=500)
 
 X_train_scaled = X_train/255.0
 X_test_scaled = X_test/255.0
